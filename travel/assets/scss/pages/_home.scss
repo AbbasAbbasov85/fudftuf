@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding: 20px;
+   
+    .container{
+        .row{
+            nav{
+               
+                .navhad{
+                    
+                    img{
+                        width: 14%;
+                    }
+                    #navbarNavDropdown{
+                        .navul{
+                            
+                            li{
+                                a{
+                                    font-weight: 500;
+                                    margin-left: 10px;
+                                    margin-right: 10px;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#secOne{
+    position:relative;
+    
+    width: 100%;
+    height: 650px;
+    background-image: url(/assets/scss/img/amsterdam-1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+    .container{
+        .row{
+            
+            .col-lg-12{
+               
+                text-align: center;
+                .rom{
+                    color: white;
+                   font-size: 65px;
+                }
+                .built{
+                    color: white;
+                   font-size: 65px;
+                   padding-bottom: 60px;
+                }
+                
+                
+            }
+  
+  .tourbtn{
+    
+    padding: 10px 45px;
+    border: 1px solid white !important;
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+    &:hover{
+        background-color: #FFCC00;
+    }
+  }
+        }
+    }
+}
+#secTwo{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .container{
+        .row{
+            .col{
+                text-align: center;
+                
+                .cor{
+                    
+                    img{
+                    width: 65px;
+                }
+                .card-body{
+                    
+                    h5{
+font-size: 25px;
+font-weight: 400;
+padding-top: 10px;
+                    }
+                    p{
+                        font-size: 17px;
+                        padding-top: 10px;
+                    }
+                }
+                }
+                
+            }
+            
+        }
+    }
+}
+#Greece{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background-color: #EFEFEF; 
+   .container{
+    .row{
+        .na{
+.navo{
+
+}
+.sic{
+    img{
+        width: 100%;
+    }
+}
+        }
+        .ma{
+            .paris{
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+   }
+  }
+  #secTree{
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    .container{
+        .row{
+            .col-lg-12{
+                padding-bottom: 40px;
+            }
+        }
+        .popone{
+            padding-bottom: 30px;
+        }
+    }
+  }
+  #secFive{
+    
+    width: 100%;
+    height: 200px;
+    background-image: url(/assets/scss/img/amsterdam-1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    .container{
+        .row{
+            .col-lg-12{
+                text-align: center;
+                .text{
+                    color: white;
+                    
+                }
+            }
+        }
+    }
+  }
+  #secSeven{
+    width: 100%;
+    height: 300px;
+    background-color: #FFCC00;
+   
+    .container{
+        .row{
+            form{
+padding-top: 40px;
+.mb-2{
+    
+    .nam{
+        width: 96.5%;
+        height: 40px;
+        border: none;
+        border-radius: 2px;
+        padding: 10px;
+       
+    }
+    .em{
+        width: 48%;
+        height: 40px;
+        border: none;
+        border-radius: 2px;
+        padding: 10px;
+        
+    }
+}
+.search{
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4484CE;
+    color: white;
+    font-weight: 500;
+}
+            }
+        }
+    }
+  }
+  #secSix{
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+justify-content: center;
+padding-bottom: 20px;
+.inpts{
+    padding-bottom: 100px
+}
+  #cart{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    padding-top: 100px;
+   
+    .box{
+        padding: 40px;
+        justify-items: center;
+        width: 350px;
+        height: auto;
+       padding-bottom: 50px;
+        align-items: center;
+        img{
+       width: 100%;
+       height: auto;
+    }
+    p{
+width: 100%;
+height: auto;
+    }
+    }
+    
+  }
+}
+
+
+
+  footer{
+    padding-top: 10px;
+  }
